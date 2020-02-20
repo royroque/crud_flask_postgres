@@ -1,8 +1,7 @@
-# This is clone/fork off simplinnovation github repo of his implemenation of:
-
-
+# This is clone/fork off simplinnovation github repo of his implementation of:
 # Basic CRUD: Flask & PostgreSQL
 
+# NOTE: this can be used for our rest api testing
 1. Clone this repo.
 2. start docker-compose from docker folder
     This will download the pre-configured postgresql db container with the lin_flask table created
