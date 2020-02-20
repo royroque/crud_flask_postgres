@@ -1,0 +1,7 @@
+FROM postgres:latest
+
+ENV POSTGRES_USER postgres
+ENV POSTGRES_PASSWORD Provenir1
+ENV POSTGRES_DB lin_flask
+
+ADD CreateDB.sql /docker-entrypoint-initdb.d/
